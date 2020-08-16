@@ -462,10 +462,6 @@ footer .header__logo {
     justify-content: space-between;
     margin-left: 15px;
     cursor: pointer;
-
-    position: absolute;
-    top: 25px;
-    right: 0;
 }
 .header__burger span {
     flex-basis: 2px;

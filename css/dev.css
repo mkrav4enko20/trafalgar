@@ -65,9 +65,16 @@
     nav {
         display: none;
     }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
     .header__logo {
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .services__item {
         flex-basis: calc(50% - 17px);
@@ -121,9 +128,6 @@
     }
     .header__burger {
         display: flex;
-        position: absolute;
-        top: 25px;
-        right: 25px;
     }
  
 }
